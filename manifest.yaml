@@ -1,5 +1,6 @@
 apphooks: {postdestroy: python3 postdestroy.py, precreate: python3.4 precreate.py}
 clone: enabled
+environment: testing
 name: python-test
 numa_aware: true
 order:
